@@ -1,0 +1,11 @@
+{
+  "homepage": "https://43jv.github.io/greddit",
+  "private": true,
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
